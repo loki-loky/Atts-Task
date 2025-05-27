@@ -1,0 +1,345 @@
+CRITICAL - 2025-05-26 13:02:17 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: products]
+in APPPATH\Views\products\index.php on line 96.
+ 1 APPPATH\Views\products\index.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php', 96)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('products/index', [], true)
+ 5 APPPATH\Controllers\Products.php(27): view('products/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 18:05:46 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: products]
+in APPPATH\Views\products\index.php on line 97.
+ 1 APPPATH\Views\products\index.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php', 97)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('products/index', [], true)
+ 5 APPPATH\Controllers\Products.php(27): view('products/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 18:05:50 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: products]
+in APPPATH\Views\products\index.php on line 97.
+ 1 APPPATH\Views\products\index.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php', 97)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('products/index', [], true)
+ 5 APPPATH\Controllers\Products.php(27): view('products/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 18:16:10 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: products]
+in APPPATH\Views\products\index.php on line 99.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('products/index', [], true)
+ 4 APPPATH\Controllers\Products.php(30): view('products/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 18:18:34 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: products]
+in APPPATH\Views\products\index.php on line 100.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('products/index', [], true)
+ 4 APPPATH\Controllers\Products.php(31): view('products/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 18:18:45 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: products]
+in APPPATH\Views\products\index.php on line 100.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('products/index', [], true)
+ 4 APPPATH\Controllers\Products.php(31): view('products/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 18:24:20 --> CodeIgniter\Files\Exceptions\FileNotFoundException: File not found: "D:\xampp\htdocs\CI_4\writable\uploads/1748264060_0f39f0062d192918f7df.webp"
+[Method: POST, Route: products/create]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748264060_0f39f0062d192918f7df.webp')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(152): CodeIgniter\Files\File->__construct('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748264060_0f39f0062d192918f7df.webp', true)
+ 3 APPPATH\Controllers\Products.php(85): CodeIgniter\Images\Handlers\BaseHandler->withFile('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748264060_0f39f0062d192918f7df.webp')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->create()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 18:42:15 --> CodeIgniter\Files\Exceptions\FileNotFoundException: File not found: "D:\xampp\htdocs\CI_4\writable\uploads/1748265135_314e172196f1d5d22256.webp"
+[Method: POST, Route: products/create]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748265135_314e172196f1d5d22256.webp')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(152): CodeIgniter\Files\File->__construct('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748265135_314e172196f1d5d22256.webp', true)
+ 3 APPPATH\Controllers\Products.php(85): CodeIgniter\Images\Handlers\BaseHandler->withFile('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748265135_314e172196f1d5d22256.webp')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->create()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 18:42:27 --> CodeIgniter\Files\Exceptions\FileNotFoundException: File not found: "D:\xampp\htdocs\CI_4\writable\uploads/1748265147_72315af3436eecc80563.webp"
+[Method: POST, Route: products/create]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748265147_72315af3436eecc80563.webp')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(152): CodeIgniter\Files\File->__construct('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748265147_72315af3436eecc80563.webp', true)
+ 3 APPPATH\Controllers\Products.php(85): CodeIgniter\Images\Handlers\BaseHandler->withFile('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748265147_72315af3436eecc80563.webp')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->create()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 18:44:29 --> CodeIgniter\Files\Exceptions\FileNotFoundException: File not found: "D:\xampp\htdocs\CI_4\writable\uploads/1748265269_ab347ba23c458597ad45.webp"
+[Method: POST, Route: products/create]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748265269_ab347ba23c458597ad45.webp')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(152): CodeIgniter\Files\File->__construct('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748265269_ab347ba23c458597ad45.webp', true)
+ 3 APPPATH\Controllers\Products.php(86): CodeIgniter\Images\Handlers\BaseHandler->withFile('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748265269_ab347ba23c458597ad45.webp')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->create()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 18:44:52 --> CodeIgniter\Files\Exceptions\FileNotFoundException: File not found: "D:\xampp\htdocs\CI_4\writable\uploads/1748265292_fb634d6ed8a9562e0232.webp"
+[Method: POST, Route: products/create]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748265292_fb634d6ed8a9562e0232.webp')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(152): CodeIgniter\Files\File->__construct('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748265292_fb634d6ed8a9562e0232.webp', true)
+ 3 APPPATH\Controllers\Products.php(86): CodeIgniter\Images\Handlers\BaseHandler->withFile('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748265292_fb634d6ed8a9562e0232.webp')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->create()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 18:45:24 --> CodeIgniter\Files\Exceptions\FileNotFoundException: File not found: "D:\xampp\htdocs\CI_4\writable\uploads/1748265324_72df00b950338f286bc5.webp"
+[Method: POST, Route: products/create]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748265324_72df00b950338f286bc5.webp')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(152): CodeIgniter\Files\File->__construct('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748265324_72df00b950338f286bc5.webp', true)
+ 3 APPPATH\Controllers\Products.php(86): CodeIgniter\Images\Handlers\BaseHandler->withFile('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748265324_72df00b950338f286bc5.webp')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->create()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 19:15:10 --> CodeIgniter\Files\Exceptions\FileNotFoundException: File not found: "D:\xampp\htdocs\CI_4\writable\uploads/1748267110_86ed7e01a2bbb60a5faa.webp"
+[Method: POST, Route: products/update/7]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748267110_86ed7e01a2bbb60a5faa.webp')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(152): CodeIgniter\Files\File->__construct('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748267110_86ed7e01a2bbb60a5faa.webp', true)
+ 3 APPPATH\Controllers\Products.php(158): CodeIgniter\Images\Handlers\BaseHandler->withFile('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748267110_86ed7e01a2bbb60a5faa.webp')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->update('7')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 19:38:26 --> CodeIgniter\Files\Exceptions\FileNotFoundException: File not found: "D:\xampp\htdocs\CI_4\writable\uploads/1748268506_078c153ffb2cd6aebcaa.webp"
+[Method: POST, Route: products/update/8]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748268506_078c153ffb2cd6aebcaa.webp')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(152): CodeIgniter\Files\File->__construct('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748268506_078c153ffb2cd6aebcaa.webp', true)
+ 3 APPPATH\Controllers\Products.php(158): CodeIgniter\Images\Handlers\BaseHandler->withFile('D:\\xampp\\htdocs\\CI_4\\writable\\uploads/1748268506_078c153ffb2cd6aebcaa.webp')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->update('8')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 19:49:43 --> ErrorException: Undefined variable $imageName
+[Method: POST, Route: products/update/8]
+in APPPATH\Controllers\Products.php on line 152.
+ 1 APPPATH\Controllers\Products.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'D:\\xampp\\htdocs\\CI_4\\app\\Controllers\\Products.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->update('8')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 19:53:39 --> ErrorException: Undefined variable $imageName
+[Method: POST, Route: products/update/8]
+in APPPATH\Controllers\Products.php on line 152.
+ 1 APPPATH\Controllers\Products.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'D:\\xampp\\htdocs\\CI_4\\app\\Controllers\\Products.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->update('8')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 19:58:08 --> ErrorException: Undefined array key "image"
+[Method: GET, Route: products]
+in APPPATH\Views\products\index.php on line 111.
+ 1 APPPATH\Views\products\index.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php', 111)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('products/index', [], true)
+ 5 APPPATH\Controllers\Products.php(30): view('products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 20:05:05 --> ErrorException: Undefined array key "image"
+[Method: GET, Route: products]
+in APPPATH\Views\products\index.php on line 114.
+ 1 APPPATH\Views\products\index.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php', 114)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('products/index', [], true)
+ 5 APPPATH\Controllers\Products.php(30): view('products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 20:06:00 --> ErrorException: Undefined array key "images"
+[Method: GET, Route: products]
+in APPPATH\Views\products\index.php on line 114.
+ 1 APPPATH\Views\products\index.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php', 114)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('products/index', [], true)
+ 5 APPPATH\Controllers\Products.php(30): view('products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 20:06:15 --> ErrorException: Undefined array key "images"
+[Method: GET, Route: products]
+in APPPATH\Views\products\index.php on line 114.
+ 1 APPPATH\Views\products\index.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php', 114)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('products/index', [], true)
+ 5 APPPATH\Controllers\Products.php(30): view('products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 20:06:47 --> ErrorException: Undefined array key "images"
+[Method: GET, Route: products]
+in APPPATH\Views\products\index.php on line 117.
+ 1 APPPATH\Views\products\index.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php', 117)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('products/index', [], true)
+ 5 APPPATH\Controllers\Products.php(30): view('products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 20:07:04 --> ErrorException: Undefined array key "images"
+[Method: GET, Route: products]
+in APPPATH\Views\products\index.php on line 117.
+ 1 APPPATH\Views\products\index.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php', 117)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('products/index', [], true)
+ 5 APPPATH\Controllers\Products.php(30): view('products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 20:07:05 --> ErrorException: Undefined array key "images"
+[Method: GET, Route: products]
+in APPPATH\Views\products\index.php on line 117.
+ 1 APPPATH\Views\products\index.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php', 117)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\CI_4\\app\\Views\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('products/index', [], true)
+ 5 APPPATH\Controllers\Products.php(30): view('products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 20:13:11 --> ErrorException: Undefined variable $imageName
+[Method: POST, Route: products/update/8]
+in APPPATH\Controllers\Products.php on line 152.
+ 1 APPPATH\Controllers\Products.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'D:\\xampp\\htdocs\\CI_4\\app\\Controllers\\Products.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->update('8')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 20:13:16 --> ErrorException: Undefined variable $imageName
+[Method: POST, Route: products/update/8]
+in APPPATH\Controllers\Products.php on line 152.
+ 1 APPPATH\Controllers\Products.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'D:\\xampp\\htdocs\\CI_4\\app\\Controllers\\Products.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->update('8')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 20:20:49 --> ErrorException: Undefined variable $imageName
+[Method: POST, Route: products/update/10]
+in APPPATH\Controllers\Products.php on line 152.
+ 1 APPPATH\Controllers\Products.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'D:\\xampp\\htdocs\\CI_4\\app\\Controllers\\Products.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->update('10')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 20:21:08 --> ErrorException: Undefined variable $imageName
+[Method: POST, Route: products/update/10]
+in APPPATH\Controllers\Products.php on line 152.
+ 1 APPPATH\Controllers\Products.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'D:\\xampp\\htdocs\\CI_4\\app\\Controllers\\Products.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->update('10')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 20:21:18 --> ErrorException: Undefined variable $imageName
+[Method: POST, Route: products/update/10]
+in APPPATH\Controllers\Products.php on line 152.
+ 1 APPPATH\Controllers\Products.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'D:\\xampp\\htdocs\\CI_4\\app\\Controllers\\Products.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->update('10')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
