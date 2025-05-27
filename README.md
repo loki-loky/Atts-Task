@@ -1,6 +1,6 @@
-# Jewelry Shop Management System
+# Product Management System
 
-A comprehensive jewelry shop management system built with CodeIgniter 4, featuring product management, authentication, and responsive UI.
+A comprehensive Product management system built with CodeIgniter 4, featuring product management, authentication, and responsive UI.
 
 ## Features
 
@@ -13,7 +13,7 @@ A comprehensive jewelry shop management system built with CodeIgniter 4, featuri
 
 ## Requirements
 
-- PHP 7.4 or higher
+- PHP 8.2 or higher
 - MySQL 5.7 or higher
 - Apache/Nginx Web Server
 - Composer
@@ -23,7 +23,7 @@ A comprehensive jewelry shop management system built with CodeIgniter 4, featuri
 1. Clone the repository:
 ```bash
 git clone [repository-url]
-cd jewellary_shop
+cd Atts-Task
 ```
 
 2. Install dependencies:
@@ -36,16 +36,13 @@ composer install
 - Update database credentials in `.env`:
 ```
 database.default.hostname = localhost
-database.default.database = jewelry_shop
-database.default.username = your_username
-database.default.password = your_password
+database.default.database = atts_db
+database.default.username = root
+database.default.password = 
 ```
 
 4. Import database schema:
-```bash
-php spark migrate
-php spark db:seed
-```
+-I have attached the database schema in the root folder with the filename atts_db.sql.Import this file into phpMyAdmin.
 
 5. Configure web server:
 - Point your web server to the `public` directory
@@ -59,12 +56,12 @@ php spark serve
 ## Default Login Credentials
 
 - Email: admin@example.com
-- Password: admin123
+- Password: password
 
 ## Directory Structure
 
 ```
-jewellary_shop/
+Atts-Task/
 ├── app/
 │   ├── Config/
 │   ├── Controllers/
