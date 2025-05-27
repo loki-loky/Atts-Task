@@ -38,7 +38,7 @@ composer install
 database.default.hostname = localhost
 database.default.database = atts_db
 database.default.username = root
-database.default.password = 
+database.default.password = root
 ```
 
 4. Import database schema:
